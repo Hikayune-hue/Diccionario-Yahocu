@@ -1,16 +1,3 @@
-index.html <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Diccionario Yahocu</title>
-</head>
-<body>
-
-  <h1>Diccionario Yahocu</h1>
-  <p>Esto es una prueba. Si ves este texto, la página funciona.</p>
-
-</body>
-</html>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,11 +16,11 @@ index.html <!DOCTYPE html>
 
   <script>
     const palabras = {
-      Agua: {
+      agua: {
         pronunciación: "Glowa",
         imagen: "Ner-wen de Agua.JPG"
-        imagen: "Trazos de Ner-wen de Agua.JPG"
-        imagen: "Version cursiva del ner-wen de Agua.JPG"
+        "Trazos de Ner-wen de Agua.JPG"
+        "Version cursiva del ner-wen de Agua.JPG"
       }
     };
 
