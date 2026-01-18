@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Diccionario Yahocu</title>
-</head>
-
-<body>
-  <h1>Diccionario Yahocu</h1>
-
-  <input id="entrada" placeholder="Escribe una palabra">
-  <button onclick="buscar()">Buscar</button>
-
-  <p id="significado"></p>
-  <img id="imagenPalabra" width="200">
-
-  <script>
+<script>
    <!DOCTYPE html>
 <html>
 <head>
@@ -29,22 +13,24 @@
   <button onclick="buscar()">Buscar</button>
 
   <p id="significado"></p>
-  <img id="imagenPalabra" width="200">
+  <img id="imagenpalabra" width="200">
 
   <script>
     const palabras = {
       agua: {
-        pronunciación: "Glowa",
+        pronunciación: "glowa",
         imagen: "ner-wendeagua.JPG"
-        "trazosdelnerwendeagua.JPG"
-        "cursivadeagua.JPG"
+        <img id="img1" width="200"><br>
+<img id="img2" width="200"><br>"trazosdelnerwendeagua.JPG"
+<img id="img3" width="200">"cursivadeagua.JPG"
+      
       }
     };
 
     function buscar() {
-      const palabra = document.getElementById("entrada").value.toLowerCase();
-      const sig = document.getElementById("significado");
-      const img = document.getElementById("imagenPalabra");
+      const palabra = document.getelementById("entrada").value.tolowercase();
+      const sig = document.getelementById("significado");
+      const img = document.getelementById("imagenPalabra");
 
       if (palabras[palabra]) {
         sig.innerText = palabras[palabra].significado;
